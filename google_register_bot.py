@@ -90,7 +90,7 @@ class GoogleAccountGenerator:
 
 
 def main():
-    bot = InstegramBot(FISRT_NAME, LAST_NAME, USERNAME, PASSWORD, GENDER)
+    bot = GoogleAccountGenerator(FISRT_NAME, LAST_NAME, USERNAME, PASSWORD, GENDER)
     try:
         bot.run()
     except Exception as ex:
